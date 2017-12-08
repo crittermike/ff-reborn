@@ -1,0 +1,52 @@
+/** Layout Clarity */
+
+.f-grid-item {
+  border: 1.5px solid #ccc;
+  margin-bottom: 12px;
+}
+
+.f-grid-item .f-grid-item, .f-window .f-grid-item {
+  border: none;
+  margin-bottom: 0;
+}
+
+div.timecard-grid-tasksummary .f-grid-header-ct-docked-top {
+  display: none;
+}
+
+div.f-grid-item-container {
+  background-color: #dcedf5;
+}
+
+/** Declutter: Task Counts per Project */
+
+div.timecard-task-summary-task-count {
+  display: none;
+}
+
+/** Buttonize Buttons **/
+
+.f-btn-inner-default-toolbar-small, .timecard-task-summary-add-task-text a {
+  color: white !important;
+  background: #6AACD8;
+  border: 1px solid #35B4E9;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 0px 5px 0px 5px;
+  text-decoration: none !important;
+}
+
+.f-btn-inner-default-toolbar-small, .timecard-task-summary-add-task-text a:hover {
+  background: #067FCC;
+}
+
+.f-btn-inner-default-toolbar-small, .timecard-task-summary-add-task-text a:active {
+  background-color: #1797C0;
+  border-color: #6AACD8;
+  padding: 0px 5px 0px 5px;
+}
+
+.timecard-task-summary-add-task-text :before {
+  color: white;
+  content: '+ ';
+}
